@@ -1,0 +1,43 @@
+
+
+#cercle-noir {
+    background-image: url('../img/fourchetteEtCouteauCroix.png');
+    width: 200px;
+    height: 200px;
+    /*border-radius: 50%;*/
+	position:relative;
+	float: left;
+	margin-right: 20px;
+}
+
+#titre{
+}
+
+.entete{
+	margin: 15px;
+}
+
+.fin-entete{
+	padding: 5px 0;
+	clear:both;
+}
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	display:inline;
+}
+
+nav ul li{
+	padding: 20px 0 ;
+	float: left;
+	position:relative;
+}
+
+nav ul li a{
+	color: #333333;
+	padding: 0 10px 0 10px;
+	text-decoration: none;
+	
+}

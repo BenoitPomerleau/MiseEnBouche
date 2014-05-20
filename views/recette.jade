@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  div.contenu
+    if recettes === undefined
+      h3 aucune recettes à afficher (undefined)
+    else
+      for recette in recettes
+        = recette.name
+        = recette.lastCooked
+        article
+          header
+            derniereFois = "préparé la dernière fois le" + recette.lastCooked
+            time(datetime="2014-03-18", pubdate) = derniereFois
+            h1 = recette.doc.name
+            h1 
+              a(href="idees.html", rel="bookmark", title="link to this post") = recette.name
+          ul.recette-detail
+            li faire bouillir de l'eau
+            li mettre les pates dans l'eau et suivre les instructions sur la boite
+            li mélanger les pates égoutées avec la sauce de votre choix
+          div.spacer
+      else
+        h3 aucune recettes à afficher
+
+
+block additionalScripts
+  <script src='../public/javascripts/recette.js'></script>

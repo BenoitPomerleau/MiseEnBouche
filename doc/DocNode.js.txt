@@ -1,0 +1,40 @@
+Node.js
+=======
+
+http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
+http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/
+http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/
+http://coenraets.org/blog/2012/10/nodecellar-sample-application-with-backbone-js-twitter-bootstrap-node-js-express-and-mongodb/
+
+
+
+===========================================================
+Debugger:
+-----------------------------------------------------------
+
+$ npm install -g node-inspector
+
+pour démarrer débogage:
+$ node --debug yourApp.js
+ou 
+$ node --debug-brk yourApp.js
+
+puis 
+$ node-inspector & 
+dans un autre cmd
+
+ouvrir l'url donnée par la derniere instruction
+ex: http://127.0.0.1:8080/debug?port=5858
+
+
+
+===========================================================
+Mongo:
+-----------------------------------------------------------
+
+$ mongo
+use <nombd>
+
+dans un autre cmd (pour pouvoir utiliser la bd dans l'app):
+$cd <path de l'installation de mongo>
+$mongod --dbpath "c:\node\nodetest2\data"

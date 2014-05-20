@@ -1,0 +1,5 @@
+GET		/recettes							Lister toutes les recettes
+GET		/recettes/5069b47aa892630aae000001	Details d'une recette 
+POST	/recettes							Ajout d'une recette
+PUT		/recettes/5069b47aa892630aae000001	MAJ d'une recette
+DELETE	/recettes/5069b47aa892630aae000001	Suppression d'une recette

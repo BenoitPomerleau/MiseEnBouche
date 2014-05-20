@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    meta(charset="unicode")
+    meta(http-equiv="Content-Type", content="text/html; charset=iso-8859-1")
+    title= title
+    //link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='../public/public/css/normalize.css')
+    link(rel='stylesheet', href='../public/css/main.css')        
+    link(rel='stylesheet', href='../public/css/gestionRecettes.css')
+    //<script src='/javascripts/vendor/modernizr-2.6.2.min.js"></script>
+  body
+    header.entete
+        hgroup
+            div#cercle-noir
+            div#titre
+                h1 Nos recettes et nos soupers
+                h2 ...ou comment mettre de l'ordre dans cet indescriptible fouillis.
+
+        nav
+            ul
+                li / 
+                    a(href="index") Accueil / 
+                li
+                    a(href="idees") Idées menu /
+                li
+                    a(href="recettes") Les recettes
+    div.fin-entete
+        hr
+
+    block content
+
+    footer
+        p.sectionSign
+            hr
+        p &copy; 2014 
+            a(href="index.html") Benoît Pomerleau
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="../public/javascripts/plugins.js"></script>
+    <script src="../public/javascripts/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    //<script>
+    //    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    //    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    //    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    //    e.src='//www.google-analytics.com/analytics.js';
+    //    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    //    ga('create','UA-XXXXX-X');ga('send','pageview');
+    //</script>
+
+    block additionalScripts
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+    <script src='../public/javascripts/global.js'></script>

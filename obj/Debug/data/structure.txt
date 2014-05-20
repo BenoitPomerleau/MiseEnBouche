@@ -1,0 +1,24 @@
+idees
+	_id
+	dateDebutSemaine
+	listeMenu
+		nomRecette
+		idRecette
+
+
+recettes
+	_id
+	nom
+	note
+	commentaire
+	tempsPreparation
+	tempsCuisson
+	nombrePortion
+	dateDerniereExecution
+	listeCategorie
+	listeIngredient
+		quantite
+		nomIngredient
+	listeEtape
+		descriptionEtape
+

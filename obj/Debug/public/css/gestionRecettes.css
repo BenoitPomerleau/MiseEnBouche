@@ -1,0 +1,34 @@
+@import url("gestionRecettesEnteteBasPage.css");
+
+
+.contenu{
+	margin: 15px;
+}
+
+.contenu h1{
+	font-size: 1.5em;
+}
+
+.contenu article{
+	background-color: #c4c4c4;
+	padding: 5px 0 5px 0;
+}
+
+.contenu article header{
+	margin: 0 15px 0 15px;
+}
+
+.contenu article header time{
+	font-size: 0.75em;
+	float: right;
+}
+
+.contenu article header h1 a{
+	color: #333333;
+	text-decoration: none;
+}
+
+.liste-menu li a{
+	color: #333333;
+	text-decoration: none;
+}
